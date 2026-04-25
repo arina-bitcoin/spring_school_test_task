@@ -1,6 +1,6 @@
 import json
 from src.tools.base import ToolRegistryProtocol
-from src.llm.client import LLMClientProtocol
+from src.llm.base import LLMClientProtocol
 
 class NewsAgent:
     SYSTEM_PROMPT = (
